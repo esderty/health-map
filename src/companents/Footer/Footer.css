@@ -1,0 +1,28 @@
+footer {
+    background-color: rgba(245, 245, 240, 0.8);
+    color: #000000;
+    border-top: 1px solid #dcdcdc;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.author-info {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 5px 0;
+    color: #000000;
+}
+
+.author-description {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    color: #666666;
+    font-style: italic;
+}
