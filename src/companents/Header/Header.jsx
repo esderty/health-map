@@ -1,10 +1,13 @@
 import React from 'react'
 import './Header.css'
+// 1. Импортируем логотип
+import logoSrc from '../../assets/logo.png' // Убедитесь, что путь правильный!
 
 const Header = ({ onOpenModal }) => {
   return (
     <header className="header">
-      <img src="/logo.png" className="logo" alt="Логотип" />
+      {/* 2. Используем импортированную переменную */}
+      <img src={logoSrc} className="logo" alt="Логотип" /> 
       <div className="headerMenu">
         <h3 className="search" onClick={() => onOpenModal('search')}>
           Поиск
