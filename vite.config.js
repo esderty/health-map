@@ -7,6 +7,6 @@ export default defineConfig({
   build: {
     outDir: 'docs'
   },
-  base: '/health-map/', 
+  base: './' 
 })
 
