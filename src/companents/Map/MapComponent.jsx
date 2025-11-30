@@ -44,7 +44,7 @@ const MapComponent = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [currentZoom, setCurrentZoom] = useState(17);
 
-  const center = [55.751574, 37.573856];
+  const center = [54.1961, 37.6182];
 
   const getColorByRating = (rating) => {
     switch (String(rating)) {
